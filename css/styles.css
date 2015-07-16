@@ -1,0 +1,49 @@
+/***********************************/
+/***********  Global Styles  *******/
+/***********************************/
+body {color: #6365677;background:#f1f1f2;margin-top:50px;text-align:center;font-family: sans-serif;}
+header {margin-bottom:40px;}
+h1{font-family: 'Oswald', sans-serif; font-weight: 400;font-size: 22px; color: #636567; text-transform: uppercase;  }
+h2{font-family: 'Source Sans Pro', sans-serif; font-weight: 400;font-size: 16px; color: #636567; padding-top:15px;}
+h3{font-family: 'Source Sans Pro', sans-serif; font-weight: 400;font-size: 14px; color: #636567; padding-top:15px;}
+p{font-family: sans-serif;font-size: 13px; color: #ffffff; padding: 20px 0 5px 0; margin-top: 10px;}
+a{text-decoration: none;font-family: sans-serif;font-size: 14px;color: #696969;}
+
+/***********************************/
+/**********  Grid Styles  ********/
+/***********************************/
+span.ed-span {display:block;padding:15px;color: #ffffff;}
+.ed-container { max-width: 960px; margin: 0 auto; }
+.ed-row:before, .row:after { content: " "; display: table; }
+.ed-row:after { clear: both; }
+.ed-row { *zoom: 1; }
+.ed-col { border: 0px solid rgba(0, 0, 0, 0); float: left; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -moz-background-clip: padding-box !important; -webkit-background-clip: padding-box !important; background-clip: padding-box !important; margin: 0 2%; display: block; }
+.ed-three-one, .ed-three-two, .ed-three-three, .ed-four-one, .ed-four-two, .ed-four-three, .ed-four-four { width: 96%; }
+.ed-nested { margin: 0; width: 100%; }
+.ed-nested .ed-row { margin: 0; }
+@media screen and (min-width: 480px) { .ed-row, .ed-col { margin: 0 1%; }
+  .ed-three-one { width: 48%; }
+  .ed-three-two { width: 48%; }
+  .ed-three-three { width: 98%; }
+  .ed-three-one.ed-tablet-full { width: 98%; }
+  .ed-four-one { width: 48%; }
+  .ed-four-two { width: 48%; }
+  .ed-four-three { width: 98%; }
+  .ed-four-four { width: 98%; }
+  .ed-four-one.ed-tablet-full { width: 98%; }
+  .ed-nested { margin: 0; width: 100%; }
+  .ed-vnested .ed-row { margin: 0; } }
+@media screen and (min-width: 760px) { .ed-three-one, .ed-three-one.ed-tablet-full { width: 31.33333333%; }
+  .ed-three-two { width: 64.66666667%; }
+  .ed-four-one, .ed-four-one.ed-tablet-full { width: 23%; }
+  .ed-four-two { width: 48%; }
+  .ed-four-three { width: 73%; }
+  .ed-three-one .ed-row, .ed-three-one .ed-col, .ed-three-two .ed-row, .ed-three-two .ed-col, .ed-three-three .ed-row, .ed-three-three .ed-col, .ed-four-one .ed-row, .ed-four-one .ed-col, .ed-four-two .ed-row, .ed-four-two .ed-col, .ed-four-three .ed-row, .ed-four-three .ed-col, .ed-four-four .ed-row, .ed-four-four .ed-col { margin: 0%; }
+  .ed-three-one .ed-col, .ed-three-two .ed-col, .ed-three-three .ed-col, .ed-four-one .ed-col, .ed-four-two .ed-col, .ed-four-three .ed-col, .ed-four-four .ed-col { margin: 0 1%; } }
+
+/***********************************/
+/***********  Main Styles  *********/
+/***********************************/
+.demo {background:#1f89c6;}
+.ed-row > div {margin-top:10px;}
+.nested .demo {background:#5d5d5d;}
